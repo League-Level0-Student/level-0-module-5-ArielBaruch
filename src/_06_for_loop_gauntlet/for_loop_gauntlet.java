@@ -18,11 +18,14 @@ System.out.println();
 }
 
 System.out.println();
-for(int y = 1; y < 7; y++) {
-	for(int z = y; z < 7; z++) {
+for(int y = 1; y < 8; y++) {
+	for(int z = 1; z < y; z++) {
 		System.out.print( "* ");
 	}
 System.out.println();
+}
+for(int v = 100; v > -1; v--) {
+	System.out.println(v);
 }
 }
 }
