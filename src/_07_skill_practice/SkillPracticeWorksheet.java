@@ -66,19 +66,23 @@ public class SkillPracticeWorksheet {
 			
 			if(cars == 0) {
 				JOptionPane.showMessageDialog(null, "I bet you use public transportation");
-				
+			}
 				else if(cars == 1 ) {
 					JOptionPane.showMessageDialog(null, "Tesla model X");
 				}
-			}
+				else {
+					JOptionPane.showMessageDialog(null, "Uhhhhhhhhhhhhhhhhhhh IDK what to say");}
+				
 			
-		}
+		
 		
 	}
 
 	private void skill5() {
 		// TODO Auto-generated method stub
-		
+	String p = 	JOptionPane.showInputDialog(null, "What is the name of your school?");
+	 JOptionPane.showMessageDialog(null, p + " " + "is a fazeTastic school");
+	
 	}	
 }
 	
